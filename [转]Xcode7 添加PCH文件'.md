@@ -4,13 +4,13 @@
   
 2.) 给你的PCH文件起名字TestDemo-Prefix.pch. 例如你的项目工程名为TestDemo然而你的PCH 文件的名字应该为 TestDemo-Prefix.pch,然后创建；
 
-![](https://raw.githubusercontent.com/KanaanAusten/MyPictures/master/14602742798754.jpg "[转]Xcode7 添加PCH文件")
+![14602742798754](https://lh3.googleusercontent.com/-Czf8LsdKRPg/V4t6Hs8tu6I/AAAAAAAAAw4/qad-VQrqo48/I/14602742798754.jpg)
+
 
 3.) 选择 PCH 文件(文章的示例文件为 TestDemo-Prefix.pch) ,可以看到里面的内容如下:
   
+![14602743121672](https://lh3.googleusercontent.com/-zquVDQclfZE/V4t6H0NHzXI/AAAAAAAAAw8/rG7-fKXCNac/I/14602743121672.jpg)
 
-  
-![](https://raw.githubusercontent.com/KanaanAusten/MyPictures/master/14602743121672.jpg "[转]Xcode7 添加PCH文件")
 
 4.) 找到 Project > Build Settings > 搜索 “Prefix Header“； 
   
@@ -20,7 +20,8 @@
   
 7.)，将Precompile Prefix Header为YES，预编译后的pch文件会被缓存起来，可以提高编译速度。效果如下
 
-![](https://raw.githubusercontent.com/KanaanAusten/MyPictures/master/14602743840031.jpg "[转]Xcode7 添加PCH文件")
+![14602743840031](https://lh3.googleusercontent.com/-4xb-ePxxo4M/V4t6IEVYrhI/AAAAAAAAAxA/20EFCh0Ty3k/I/14602743840031.jpg)
+
 
 8.) Clean 并且 build 你的项目.
   

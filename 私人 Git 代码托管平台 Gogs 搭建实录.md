@@ -1,14 +1,14 @@
 #私人 Git 代码托管平台 Gogs 搭建实录
 
-## 1. 简介 {#toc_0}
+## 1. 简介 
 
 Gogs (Go Git Service) 是一款极易搭建的自助 Git 服务。Gogs 的目标是打造一个最简单、最快速和最轻松的方式搭建自助 Git 服务。使用 Go 语言开发使得 Gogs 能够通过独立的二进制分发，并且支持 Go 语言支持的 所有平台，包括 Linux、Mac OS X、Windows 以及 ARM 平台。
 
-## 2. 搭建过程 {#toc_1}
+## 2. 搭建过程 
 
-### 2.1 安装 Golang 开发环境 {#toc_2}
+### 2.1 安装 Golang 开发环境 
 
-#### 2.1.1 安装 GOVM go语言版本管理器 {#toc_3}
+#### 2.1.1 安装 GOVM go语言版本管理器
 
   * 安装必要的环境控件及依赖(以 Debian 为例)
 
@@ -41,7 +41,7 @@ source ~/.zshrc
 ```
 
 
-#### 2.1.2 使用 GOVM 安装 golang {#toc_4}
+#### 2.1.2 使用 GOVM 安装 golang 
 
   * 安装 golang 
 
@@ -73,15 +73,15 @@ export PATH=$PATH:$GOROOT/bin:$GOPATH/bin
 
 
 
-## 1. 简介 {#toc_0}
+## 1. 简介
 
 Gogs (Go Git Service) 是一款极易搭建的自助 Git 服务。Gogs 的目标是打造一个最简单、最快速和最轻松的方式搭建自助 Git 服务。使用 Go 语言开发使得 Gogs 能够通过独立的二进制分发，并且支持 Go 语言支持的 所有平台，包括 Linux、Mac OS X、Windows 以及 ARM 平台。
 
-## 2. 搭建过程 {#toc_1}
+## 2. 搭建过程 
 
-### 2.1 安装 Golang 开发环境 {#toc_2}
+### 2.1 安装 Golang 开发环境 
 
-#### 2.1.1 安装 GOVM go语言版本管理器 {#toc_3}
+#### 2.1.1 安装 GOVM go语言版本管理器 
 
   * 安装必要的环境控件及依赖(以 Debian 为例)
 
@@ -114,7 +114,7 @@ source ~/.zshrc
 ```
 
 
-#### 2.1.2 使用 GOVM 安装 golang {#toc_4}
+#### 2.1.2 使用 GOVM 安装 golang 
 
   * 安装 golang 
 
@@ -144,16 +144,16 @@ export PATH=$PATH:$GOROOT/bin:$GOPATH/bin
   
 `` 
 
-### 2.2 下载安装 Gogs 源代码 {#toc_5}
+### 2.2 下载安装 Gogs 源代码 
 
-#### 2.2.1 下载 Gogs 并安装依赖 {#toc_6}
+#### 2.2.1 下载 Gogs 并安装依赖 
 
 ```
 go get -u github.com/gogits/gogs
 ```
 
 
-#### 2.2.2 构建主程序 {#toc_7}
+#### 2.2.2 构建主程序 
 
 ```
 cd $GOPATH/src/github.com/gogits/gogs
@@ -161,14 +161,14 @@ go build
 ```
 
 
-#### 2.2.3 测试安装 {#toc_8}
+#### 2.2.3 测试安装 
 
 ```
 ./gogs web
 ```
 
 
-### 2.3 创建数据库 {#toc_9}
+### 2.3 创建数据库
 
 ```
 mysql -u root -p
@@ -188,7 +188,7 @@ mysql -u root -p
 ```
 
 
-### 2.4 配置域名 {#toc_10}
+### 2.4 配置域名
 
   * nginx 反代
 
@@ -210,7 +210,7 @@ server {
   
 最后重启 `nginx`就好了，Ubuntu 下是 `sudo service nginx restart`。
 
-### 2.5 配置 SSl 加密 {#toc_11}
+### 2.5 配置 SSl 加密 
 
 在 custom/conf/app.ini 文件中修改下列配置选项（以下仅为示例）
 
@@ -230,15 +230,15 @@ KEY_FILE = custom/https/key.pem
 ```
 
 
-## 3. 创建守护进程 {#toc_12}
+## 3. 创建守护进程
 
-### 3.1 使用启动脚本 {#toc_13}
+### 3.1 使用启动脚本
 
 [Debian 启动脚本](https://github.com/gogits/gogs/blob/master/scripts/init/debian/gogs)
   
 [Centos 启动脚本](https://github.com/gogits/gogs/blob/master/scripts/init/centos/gogs)
 
-### 3.2 使用Systemd 服务 {#toc_14}
+### 3.2 使用Systemd 服务 
 
 在 GitHub 上的 Gogs 仓库有一个 [systemd 服务模版文件](https://github.com/gogits/gogs/blob/master/scripts/systemd/gogs.service)，您需要做出一定的修改才能够使用它：
 
@@ -249,7 +249,7 @@ KEY_FILE = custom/https/key.pem
 
 您可以通过 `sudo systemd status gogs -l` 或 `sudo journalctl -b -u gogs` 命令检查 Gogs 的运行状态。
 
-## 4. 安装 {#toc_15}
+## 4. 安装 
 
 在 Gogs 服务运行起来以后,在浏览器输入你的 `http://IP地址:3000` 来访问或者使用你配置的域名来访问.初次访问会进入安装界面.将你在服务器配置的参数填进去就行了,过一会就可以进入主界面,这时候Gogs 就搭建好了.
 

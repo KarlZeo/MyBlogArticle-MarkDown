@@ -1,4 +1,4 @@
-#WordPress 开启全站 https
+# WordPress 开启全站 https
 
 为了对付某运营商的流量劫持和自身的数据安全,给自己的网站上一个 https 小绿锁 还是很有必要的.
 

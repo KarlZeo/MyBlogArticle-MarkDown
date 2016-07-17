@@ -30,7 +30,8 @@ chmod +x install_fs.sh
 
 安装完成后会提示如下表示已经成功运行：
   
-![](https://raw.githubusercontent.com/KanaanAusten/MyPictures/master/FS1.jpg "流量加速插件 FinalSpeed介绍及一键安装教程")
+![FS1](https://lh3.googleusercontent.com/-JS8YOTj_cqk/V4t8U3H85KI/AAAAAAAAAyI/bOY_30lJIFs/I/FS1.jpg)
+
   
 A、相关命令行：
 
@@ -93,15 +94,18 @@ OS X/Linux客户端下载：[点我](http://www.abclite.cn/redirect/aHR0cDovL2Zz
 
 1.运行FinalSpeed客户端,填写服务器地址 10.10.10.10 .
 
-![](https://raw.githubusercontent.com/KanaanAusten/MyPictures/master/FS2.jpg "流量加速插件 FinalSpeed介绍及一键安装教程")
+![FS2](https://lh3.googleusercontent.com/-Q0woFmrof78/V4t8VJ7uP4I/AAAAAAAAAyM/Gj1sAbZBkuk/I/FS2.jpg)
+
   
 2.点击添加,增加加速端口,加速端口为ss端口8989,如果为其他端口,请相应修改,本地端口任意,这里是2000 .
 
-![](https://raw.githubusercontent.com/KanaanAusten/MyPictures/master/FS3.jpg "流量加速插件 FinalSpeed介绍及一键安装教程")
+![FS3](https://lh3.googleusercontent.com/-A1g3wupf5E4/V4t8VV8uM6I/AAAAAAAAAyQ/hPevpWoAPhk/I/FS3.jpg)
+
   
 3.打开ss客户端,添加服务器,服务器IP为127.0.0.1,服务器端口为加速端口对应的本地端口,这里是2000,然后设置你的ss密码,加密方式.
 
-![](https://raw.githubusercontent.com/KanaanAusten/MyPictures/master/FS4.jpg "流量加速插件 FinalSpeed介绍及一键安装教程")
+![FS4](https://lh3.googleusercontent.com/-J8hZQ45HTnY/V4t8VkIGDxI/AAAAAAAAAyU/RSmFXWA1Irk/I/FS4.jpg)
+
 
 4.确定保存,选择使用刚添加的服务器,并设置浏览器代理,成功连接后,FinalSpeed状态栏会出现&#8221;连接服务器成功&#8221;提示.
 

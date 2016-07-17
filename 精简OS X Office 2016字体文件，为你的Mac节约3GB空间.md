@@ -4,7 +4,9 @@ Ofiffce 2016 For [Mac](http://www.abclite.cn/tag/mac)难用不难用是一回事
 
 1、打开终端，输入：
 
+```
 sudo bash -c “curl -s https://raw.githubusercontent.com/goodbest/OfficeThinner/master/OfficeThinner.sh | bash”
+```
 
 2、根据要求输入密码，回车，等待处理，一般需要1分钟左右。
 
