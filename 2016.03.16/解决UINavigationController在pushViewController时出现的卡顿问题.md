@@ -1,4 +1,4 @@
-#解决UINavigationController在pushViewController时出现的卡顿问题
+# 解决UINavigationController在pushViewController时出现的卡顿问题
 进行开发中，遇到了个小问题：
 
 在使用UINavigationController的-pushViewController:animated:执行入栈一个子控制器操作时(即最新栈顶子控制器)，会出现推出(即入栈)”卡顿”现象，

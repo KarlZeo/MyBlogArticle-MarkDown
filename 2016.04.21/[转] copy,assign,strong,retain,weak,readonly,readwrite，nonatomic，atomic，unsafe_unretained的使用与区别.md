@@ -1,4 +1,4 @@
-#[转] copy,assign,strong,retain,weak,readonly,readwrite，nonatomic，atomic，unsafe_unretained的使用与区别
+# [转] copy,assign,strong,retain,weak,readonly,readwrite，nonatomic，atomic，unsafe_unretained的使用与区别
 最近在学习iOS的过程个遇到了不少问题，知道概念也看过示例代码，但是就是写不出来或者不知道怎么去用。
 一种遇到最多的时候就是在申明一个属性的时候，比如：
 
@@ -18,7 +18,7 @@
  
 这篇文章主要是从这几个词的含义和简单的使用，然后就是iOS开发中使用的时候的一些区别，这里对面试非常重要！
 
-##含义
+## 含义
 ### copy	
 复制内容（深复制），如果调用copy的是数组，则为指针复制（浅复制），仅仅复制子元素的指针。
 

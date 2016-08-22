@@ -1,4 +1,4 @@
-#iOS UIAppearance使用详解
+# iOS UIAppearance使用详解
 
 iOS5及其以后提供了一个比较强大的工具UIAppearance，我们通过UIAppearance设置一些UI的全局效果，这样就可以很方便的实现UI的自定义效果又能最简单的实现统一界面风格，它提供如下两个方法。
 

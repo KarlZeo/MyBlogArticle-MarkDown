@@ -1,4 +1,4 @@
-#升级 Oh My Zsh 报错
+# 升级 Oh My Zsh 报错
 
 错误代码
 

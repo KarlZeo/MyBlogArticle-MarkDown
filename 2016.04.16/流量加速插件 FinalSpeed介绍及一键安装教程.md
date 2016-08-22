@@ -1,4 +1,4 @@
-#流量加速插件 FinalSpeed介绍及一键安装教程
+# 流量加速插件 FinalSpeed介绍及一键安装教程
 ### 一.介绍
 
 官方介绍：FinalSpeed是高速双边加速软件,可加速所有基于tcp协议的网络服务,在高丢包和高延迟环境下,仍可达到90%的物理带宽利用率,即使高峰时段也能轻松跑满带宽.
@@ -73,7 +73,7 @@ crontab -e
 
 E、还要注意，已经在运行了没有停止情况下重复启动是会报错的，所以最好先停止或者重启。
   
-###四,客户端部署
+### 四,客户端部署
   
 Windows客户端下载：[点我](http://www.abclite.cn/redirect/aHR0cDovL2ZzLmQxc20ubmV0L2ZpbmFsc3BlZWQvZmluYWxzcGVlZF9pbnN0YWxsMS4wLmV4ZQ==)
 

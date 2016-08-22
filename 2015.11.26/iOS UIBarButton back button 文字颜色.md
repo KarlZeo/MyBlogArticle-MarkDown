@@ -1,4 +1,4 @@
-#iOS UIBarButton back button 文字颜色
+# iOS UIBarButton back button 文字颜色
 系统默认的颜色是蓝色,蓝色不难看,但是在某些底色比较重的背景上面,蓝色就很难分辨了.更改方法很简单,在`AppDelegate.m`这个文件的
 
 ```

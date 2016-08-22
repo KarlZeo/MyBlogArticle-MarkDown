@@ -14,6 +14,8 @@ UIScrollView的是几个UIKit类包括的UITableView和UITextView中的超类。
 该UIScrollView的类可以有必须采取UIScrollViewDelegate协议的委托。对于缩放和平移工作，委托必须实现viewForZoomingInScrollView ：和scrollViewDidEndZooming ： withView ： atScale ： ，此外，最大（ maximumZoomScale ）和最小（ minimumZoomScale ）变焦倍数必须是不同的。
 
 方法&&属性:
+
+```
   
 // 监控目前滚动的位置(默认CGPointZero)
 
@@ -275,4 +277,6 @@ NSLog(@&#8221;ScrollDown now&#8221;);
 }
   
 }
+
+```
 

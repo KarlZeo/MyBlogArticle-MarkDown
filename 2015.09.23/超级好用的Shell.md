@@ -1,4 +1,4 @@
-#超级好用的Shell
+# 超级好用的Shell
 
 目前常用的 Linux 系统和 OS X 系统的默认 Shell 都是 bash，但是真正强大的 Shell 是深藏不露的 zsh，下面我们看看如何安装、配置和使用 zsh。
 

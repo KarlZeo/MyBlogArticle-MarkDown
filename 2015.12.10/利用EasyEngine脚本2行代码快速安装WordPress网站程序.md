@@ -1,4 +1,4 @@
-#利用EasyEngine脚本2行代码快速安装WordPress网站程序
+# 利用EasyEngine脚本2行代码快速安装WordPress网站程序
 
 **第一、EasyEngine部署环境准备工作**
 

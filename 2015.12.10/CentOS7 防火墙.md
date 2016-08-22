@@ -1,4 +1,4 @@
-#CentOS7 防火墙
+# CentOS7 防火墙
 
 CentOS 7 的防火墙由之前版本的 `iptables` 换成了 `firewall`
 

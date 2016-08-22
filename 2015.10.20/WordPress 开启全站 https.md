@@ -2,7 +2,7 @@
 
 为了对付某运营商的流量劫持和自身的数据安全,给自己的网站上一个 https 小绿锁 还是很有必要的.
 
-一.申请 SSL 证书
+## 一.申请 SSL 证书
   
 推荐使用`Let’s Encrypt SSL`自签证书.简单迅速.
   
@@ -15,7 +15,7 @@ cd letsencrypt
 ```
 
 
-二.配置 nginx
+## 二.配置 nginx
 
 ```
 server {
@@ -48,7 +48,7 @@ include /var/www/blog.nieyujiang.info/conf/nginx/*.conf;
 ```
 
 
-三.安装**Easy HTTPS (SSL) Redirection** 插件
+## 三.安装**Easy HTTPS (SSL) Redirection** 插件
 
 本插件的作用就是强制将所有链接重定向至 https;
 

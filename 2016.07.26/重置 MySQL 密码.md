@@ -1,4 +1,4 @@
-#重置 MySQL 密码
+# 重置 MySQL 密码
 
 ## 一. 用SET PASSWORD命令
 

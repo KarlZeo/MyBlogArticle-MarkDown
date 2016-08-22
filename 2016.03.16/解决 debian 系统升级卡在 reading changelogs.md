@@ -1,4 +1,4 @@
-#解决 debian 系统升级卡在 reading changelogs
+# 解决 debian 系统升级卡在 reading changelogs
 
 在 debian 系统下执行`apt-get update && apt-get upgrade`屏幕输出如下:
 

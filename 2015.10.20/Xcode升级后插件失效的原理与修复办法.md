@@ -25,7 +25,9 @@ Xcode 的插件放置在 `~/Library/Application\ Support/Developer/Shared/Xcode/
 
 最终的命令为：
 
+```
 find ~/Library/Application\ Support/Developer/Shared/Xcode/Plug-ins -name Info.plist -maxdepth 3 | xargs -I{} defaults write {} DVTPlugInCompatibilityUUIDs -array-add `defaults read /Applications/Xcode.app/Contents/Info.plist DVTPlugInCompatibilityUUID`
+```
 
 在 Terminal 中运行上述命令就解决了插件失效的问题，在插件 Info.plist 的 DVTPlugInCompatibilityUUIDs 中也能看到新增的 UUID 了。
 

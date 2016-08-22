@@ -1,5 +1,5 @@
-#ghost 博客开启 https
-一.申请 SSL 证书
+# ghost 博客开启 https
+## 一.申请 SSL 证书
   
 推荐使用`Let’s Encrypt SSL`自签证书.简单迅速.
   
@@ -12,7 +12,7 @@ cd letsencrypt
 ```
 
 
-二.配置 nginx
+## 二.配置 nginx
 
 ```
 server {
@@ -33,15 +33,13 @@ client_max_body_size 1000m;
 ```
 
 
-三.修改 ghost 的配置文件 config.js
+## 三.修改 ghost 的配置文件 config.js
 
 ```
 修改 url: 'https://your.domain.name',
 添加 forceAdminSSL: true;
 ```
 
-
-四.搞定收工
 
 
 

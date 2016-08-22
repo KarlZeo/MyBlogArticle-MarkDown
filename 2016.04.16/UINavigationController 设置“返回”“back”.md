@@ -1,4 +1,4 @@
-#UINavigationController 设置“返回”“back”
+# UINavigationController 设置“返回”“back”
 
 1). 在之前控制器 添加语句
 初始化界面时候

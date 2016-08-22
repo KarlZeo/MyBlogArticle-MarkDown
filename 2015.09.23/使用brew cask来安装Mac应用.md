@@ -1,10 +1,12 @@
-#使用brew cask来安装Mac应用
+# 使用brew cask来安装Mac应用
 
 ## 简洁优雅的命令行工具 homebrew-cask
 
 ### 使用homebrew-cask安装软件，只需要一行命令
 
-`brew cask install sublime-text skitch dropbox google-chrome`
+```
+brew cask install sublime-text skitch dropbox google-chrome
+```
 
 这样以下就安装了4个软件，轻松搞定，不需要鼠标点击，no dragging, no dropping。
 
@@ -32,7 +34,9 @@ homebrew的官网是<http://brew.sh/>，上面有简体版本，可以了解以�
 
 打开`Terminal`后，把下面的一样命令复制粘贴到里面，按下回车：
 
-<pre class="prettyprint" ><code id="selectable" onclick="selectText(this)">ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"```
+```
+ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+```
 
 
 屏幕一堆英文乱闪之后，就搞定了（命令提示符号回到原来的样子）。
@@ -42,7 +46,7 @@ homebrew的官网是<http://brew.sh/>，上面有简体版本，可以了解以�
 还是那个「Terminal」窗口，再把下面的命令复制粘贴过去，按下回车。
 
 ```
-brew tapbrew tap caskroom/cask
+brew tap caskroom/cask
 brew install brew-cask
 ```
 
@@ -57,7 +61,7 @@ brew install brew-cask
 
 brew cask install XXX # 将XXX替换成你想要安装的软件名称就可以了
   
-\*\* 常用命令 \*\*
+常用命令
 
   * `brew cask search` 列出所有可以被安装的软件
   * `brew cask search drop` 查找所有和 _drop_ 相关的应用

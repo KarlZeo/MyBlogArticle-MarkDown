@@ -1,4 +1,4 @@
-#[转]Xcode7 添加PCH文件'
+# [转]Xcode7 添加PCH文件'
 
 1.) 打开你的Xcode工程. 在Supporting Files目录下,选择 File > New > File > iOS > Other > PCH File 然后点击下一步； 
   

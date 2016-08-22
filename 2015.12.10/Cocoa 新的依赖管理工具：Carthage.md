@@ -1,4 +1,4 @@
-#Cocoa 新的依赖管理工具：Carthage
+# Cocoa 新的依赖管理工具：Carthage
 说到 iOS 的依赖管理工具，大家一定首先想到的是 [CocoaPods](http://cocoapods.org/) ，不错，CocoaPods 确实是一个很好依赖管理工具，已然成为了 Cocoa 依赖管理的标准，丰富的支持库、文档等等，CocoaPods 相关的文章有很多，这里就不一一赘述了。
 
 今天要介绍的是一款新的依赖管理工具，名曰 “[Carthage](https://github.com/Carthage/Carthage)”，名字有点难理解，简单方便，完全独立，不修改 XCode 项目文件或配置。

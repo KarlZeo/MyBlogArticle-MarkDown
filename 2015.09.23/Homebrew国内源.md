@@ -1,4 +1,4 @@
-#Homebrew国内源
+# Homebrew国内源
 #### 配置镜像源
 
 设置环境变量 HOMEBREW\_BOTTLE\_DOMAIN 即可使用本镜像源加速下载 Homebrew 资源。

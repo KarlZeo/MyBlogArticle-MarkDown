@@ -1,4 +1,4 @@
-#精简OS X Office 2016字体文件，为你的Mac节约3GB空间
+# 精简OS X Office 2016字体文件，为你的Mac节约3GB空间
 
 Ofiffce 2016 For [Mac](http://www.abclite.cn/tag/mac)难用不难用是一回事，但尼玛巨硬太缺德的就是每个APP都有同样的字体文件，无法像Windows版本那样共用一个字体库，这就导致了每次安装、更新Word/Excel/PPT的时候体积巨大，本来SSD的今天硬盘就比较精贵，所以只好相伴瘦身了。
 

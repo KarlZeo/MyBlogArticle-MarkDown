@@ -1,4 +1,4 @@
-#Homebrew简介及安装
+# Homebrew简介及安装
 **Homebrew是神马**
 
 linux系统有个让人蛋疼的通病，软件包依赖，好在当前主流的两大发行版本都自带了解决方案，Red hat有yum，Ubuntu有apt-get

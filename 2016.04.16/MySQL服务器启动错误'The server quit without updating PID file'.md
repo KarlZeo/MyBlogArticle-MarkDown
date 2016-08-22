@@ -1,4 +1,4 @@
-#MySQL服务器启动错误'The server quit without updating PID file'
+# MySQL服务器启动错误'The server quit without updating PID file'
 
 答案一
 

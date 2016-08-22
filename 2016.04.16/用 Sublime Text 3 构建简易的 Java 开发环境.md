@@ -1,4 +1,4 @@
-#用 Sublime Text 3 构建简易的 Java 开发环境
+# 用 Sublime Text 3 构建简易的 Java 开发环境
 
 ## 1. 安装 Java 环境和 Jdk 
 
